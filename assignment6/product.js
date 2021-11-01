@@ -1,4 +1,4 @@
-let products = [
+let products = [  //สร้าง Array Obj ขึ้นมาเพื่อเก็บสินค้าหลายๆชิ้น
   {
     productId: "A001",
     productName: "IQUNIX F96 Coral sea",
