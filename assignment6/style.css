@@ -18,3 +18,9 @@ div#product {
     flex-wrap: wrap;
     
 } */
+
+a.sh{
+    width: 400px;
+    height: auto;
+    margin-left: 15px;
+}
