@@ -16,15 +16,13 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <img id="search-icon" src="search.png" height="40px">
-      <div class="collapse navbar-collapse">
-        <form class="form-inline m-1 invisible" id="form-search">
-          <input class="form-control" id="text-search">
-          <button class="btn btn-outline-success" id="search">Search</button>
-        </form>
-      </div>
+      <form class="d-flex d-none" id="form-search">
+        <input class="form-control" type="search" id="text-search">
+        <a class="btn btn-outline-success" type="submit" id="search-btn">Search</a>
+      </form>
     </nav>
 
-    <div id="product"  class="container">
+    <div id="product" class="container">
     </div>
 
     <script src="search.js" type="module"></script>
